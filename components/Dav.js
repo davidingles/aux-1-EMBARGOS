@@ -10,7 +10,7 @@ import { useGLTF } from "@react-three/drei";
 export function Dav(props) {
   const { nodes, materials } = useGLTF("/RENDER EMBARGOS A LO BESTIA.gltf");
   return (
-    <group {...props} dispose={null} scale={1} position={[0, 0, 0]}>
+    <group {...props} dispose={null} scale={.1} position={[0, 0, 0]}>
       <group
         position={[-0.017, 0.239, -0.457]}
         rotation={[Math.PI / 2, 0, Math.PI / 2]}
